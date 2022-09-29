@@ -13,6 +13,8 @@ module.exports = {
       'rockwell': ['rockwell', 'sans-serif']
     },
     fontSize: {
+      '404': '10rem',
+      'nietGevonden': '4rem',
       'title': '2rem',
       'subtitle': '1.5rem',
       'nav': '1.125rem',
@@ -20,7 +22,7 @@ module.exports = {
     screens: {
       'sm': '640px',
       'md': '850px',
-      'lg': '1200px'
+      'lg': '950px'
     },
     extend: {
       animation: {
@@ -30,6 +32,9 @@ module.exports = {
         'act': '5px 5px 10px 2px rgba(0, 0, 0, 0.3)',
         'button': '0px 0px 7px 5px rgba(0, 0, 0, 0.3)',
       },
+      height: {
+        'box': '36rem',
+      }
     }
   },
   plugins: [],

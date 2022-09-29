@@ -1,18 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Activiteit from '../components/Activiteit';
-import TextWithTitle from '../components/TextWithTitle';
-//import groupPic from '../photos/Group pic.png';
+//import groupPic from '../photos/GroupPic.png';
 import { activities } from '../data/activities';
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div className='my-10 space-y-10'>
-      <p>
+      <p className='mx-5 my-10'>
         Beste Mercurius leden en geïnteresseerden,<br/> Welkom op de officiële website van onze studentenclub.
       </p>
-      <TextWithTitle title={"Wat is Mercurius"} text={"Wij zijn een door Hogeschool Gent erkende studentenclub. Dit wil zeggen dat wij enkele afspraken ondertekenen die de veiligheid van onze leden garandeert en de opgelegde regels zullen worden nageleefd.\nBij ons geldt een nultolerantie voor wanpraktijken of situaties die de veiligheid van onze leden op het spel zet.\nOok ondertekenen wij het Aalsters doopdecreet, waardoor wij een veilige doop kunnen garanderen aan zowel de deelnemers als de mensen rondom ons."}/>
-      <TextWithTitle title={"Je laten dopen"} text={"Als je zin hebt om je bij een studentenvereniging aan te sluiten, maar je hebt geen zin in de traditionele vuile doop waarvan je al zoveel gehoord hebt, dan ben je bij Mercurius op de juiste plaats.\nOnze doop zal namelijk een leuke namiddag paintballen worden! En nog beter: voor nieuwe leden is dit GRATIS!\nHeb je dus zin om hieraan mee te doen, schrijf je dan nu in via deze form: www.form.be"} />
+      <div className='mx-5 my-10 sm:mx-auto sm:max-w-xl sm:m-0 space-y-4'>
+        <span className='text-green font-semibold text-subtitle'>Wat is Mercurius</span>
+        <p className='text-justify'>Wij zijn een door Hogeschool Gent erkende studentenclub. Dit wil zeggen dat wij enkele afspraken ondertekenen die de veiligheid van onze leden garandeert en de opgelegde regels zullen worden nageleefd.</p>
+        <p className='text-justify'>Bij ons geldt een nultolerantie voor wanpraktijken of situaties die de veiligheid van onze leden op het spel zet.</p>
+        <p className='text-justify'>Ook ondertekenen wij het Aalsters doopdecreet, waardoor wij een veilige doop kunnen garanderen aan zowel de deelnemers als de mensen rondom ons.</p>
+      </div>
+
+      <div className='mx-5 my-10 sm:mx-auto sm:max-w-xl sm:m-0 space-y-4'>
+        <span className='text-green font-semibold text-subtitle'>Foto's</span>
+        <p className='text-justify'>Voor foto's verwijzen wij graag naar onze socialemediakanalen.<br/> (links onderaan deze pagina)</p>
+      </div>
 
       <div>
         <span className='text-green font-semibold text-subtitle'>Komende activiteiten</span>

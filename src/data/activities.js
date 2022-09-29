@@ -1,5 +1,4 @@
 import gratisVat230922 from '../photos/activities/GratisVat230922.jpg';
-import springuur300922 from '../photos/activities/Springuur300922.jpg'
 import introductiecantus011022 from '../photos/activities/Introductiecantus011022.jpg';
 import doop151022 from '../photos/activities/Doop151022.jpg';
 import halloweenCantus301022 from '../photos/activities/HalloweenCantus301022.jpg';
@@ -51,8 +50,17 @@ export const activities = [
     link: 'https://www.facebook.com/events/639866144237633'
   },
   {
+    picture: null,
+    title: 'Nadoop',
+    date: new Date('2022/10/29'),
+    location: 'HOGENT stadscampus Aalst',
+    time: '20:00',
+    toegankelijkheid: 'Open',
+    link: 'https://www.facebook.com/events/1135283497400471'
+  },
+  {
     picture: halloweenCantus301022,
-    title: 'Nadoop & Halloweencantus',
+    title: 'Halloweencantus',
     date: new Date('2022/10/29'),
     location: 'TBA',
     time: '20:00',
@@ -72,27 +80,27 @@ export const activities = [
     picture: null,
     title: 'Mercurius On Ice',
     date: new Date('2022/11/26'),
-    location: 'TBA',
-    time: 'TBA',
+    location: 'Schaatsbaan Liedekerke',
+    time: '17:00',
     toegankelijkheid: 'Open',
-    link: null
+    link: 'https://www.facebook.com/events/1548848898871674'
   },
   {
     picture: null,
     title: 'Glühwein cantus',
     date: new Date('2022/12/10'),
-    location: 'TBA',
-    time: 'TBA',
+    location: `Café 't Kraaiken`,
+    time: '20:00',
     toegankelijkheid: 'Gesloten',
-    link: null
+    link: 'https://www.facebook.com/events/5418875858168291'
   },
   {
     picture: null,
     title: 'Kerstmarkt Duitsland',
     date: new Date('2022/12/17'),
-    location: 'TBA',
-    time: 'TBA',
+    location: `Keulen`,
+    time: '10:00',
     toegankelijkheid: 'Gesloten',
-    link: null
+    link: 'https://www.facebook.com/events/1121800288429242'
   },
 ]

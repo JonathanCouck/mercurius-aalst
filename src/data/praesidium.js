@@ -5,6 +5,7 @@ import couckie from '../photos/praesidium/Couckie.jpg';
 import jarno from '../photos/praesidium/jarno.png';
 import kleinen from '../photos/praesidium/Kleinen.jpg';
 import brakkeJongen from '../photos/praesidium/Brakke.jpg';
+import cremer from '../photos/praesidium/Cremer.jpg';
 
 export const praesidium = [
   {
@@ -93,15 +94,15 @@ export const praesidium = [
   },
   {
     functie: 'Cantor',
-    foto: couckie,
+    foto: cremer,
     naam: 'Jarno "Cremer" De Cremer',
-    studie: '',
+    studie: '/',
     doopjaar: '2021-22',
-    peter: '',
-    meter: '',
-    favQuote: '',
-    quoteBy: '',
-    favCantLied: '',
+    peter: 'Krissy',
+    meter: 'Wies',
+    favQuote: 'The mouth of a perfectly happy man is filled with beer.',
+    quoteBy: 'Ancient Egyptian Wisdom, 2200 B.C.',
+    favCantLied: 'Clementine',
   },
   {
     functie: 'P.R.',
