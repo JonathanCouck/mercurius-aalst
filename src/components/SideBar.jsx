@@ -4,24 +4,24 @@ import { Link } from 'react-router-dom';
 const Sidebar = ({close, isOpen}) => {
 
   return (
-    <aside className={`md:hidden shadow-act z-10 bg-white text-black w-60 fixed right-0 top-0 h-screen border-l-2 border-gray ${isOpen ? "translate-x-0 " : "translate-x-full"} ease-in-out duration-300`}>
+    <aside className={`easer nav:hidden shadow-act z-30 bg-white text-black w-60 fixed right-0 top-0 h-screen border-l-2 border-gray ${isOpen ? "translate-x-0 " : "translate-x-full"}`}>
       <div className='h-24'/>
       <nav>
-        <ul className='text-nav flex flex-col'>
+        <ul className='text-[1.2rem] text-left flex flex-col'>
           {[
-            ['Home', '/'],
-            ['Praesidium', '/praesidium'],
-            ['Geschiedenis', '/geschiedenis'],
-            ['Clublied', '/clublied'],
-            ['Kalender', '/kalender'],
+            ['Home', '/mercurius-aalst'],
+            ['Praesidium', '/mercurius-aalst/praesidium'],
+            ['Geschiedenis', '/mercurius-aalst/geschiedenis'],
+            ['Clublied', '/mercurius-aalst/clublied'],
+            ['Kalender', '/mercurius-aalst/kalender'],
             // ['Clubcafe', '/clubcafe'],
-          ].map(([title, url], index) => { 
-            const cn = 'pl-10 text-secondary text-left border-b border-gray h-10 py-2 pr-5 hover:cursor-pointer hover:bg-lgreen ease-in-out duration-200'
+          ].map(([title, url]) => {
             return (
-              <Link to={url} onClick={close} className={cn} key={title}>
+              <Link to={url} onClick={close} className='easer hover:scale-105 hover:border-0 hover:rounded-l pl-10 text-secondary border-t border-gray py-[0.4rem] hover:cursor-pointer hover:bg-lgreen' key={title}>
                 {title}
               </Link>
           )})}
+          <div className='border-t border-gray' />
         </ul>
       </nav>
     </aside>

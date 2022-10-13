@@ -19,7 +19,7 @@ function App() {
         <NavMenu />
 
         <Routes>
-          <Route path='/'>
+          <Route path='mercurius-aalst/'>
             <Route path='' element={<Home/>} />
             <Route path='geschiedenis' element={<Geschiedenis/>} />
             <Route path='clublied' element={<Clublied/>} />
@@ -27,8 +27,8 @@ function App() {
             <Route path='kalender' element={<Kalender/>} />
             {/* <Route path='clubcafe' element={<Clubcafe/>} /> */}
 
-            <Route path="/404" element={<ErrorPagina/>} />
-            <Route path="*" element={<Navigate to="/404" replace />} />
+            <Route path="404" element={<ErrorPagina/>} />
+            <Route path="*" element={<Navigate to="404" replace />} />
           </Route>
         </Routes>
 

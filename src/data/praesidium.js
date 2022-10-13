@@ -1,16 +1,7 @@
-import dwerg1 from '../photos/praesidium/Dwerg1.jpg';
-import dwerg2 from '../photos/praesidium/Dwerg2.jpg';
-import maajk from '../photos/praesidium/Maajk.jpg';
-import couckie from '../photos/praesidium/Couckie.jpg';
-import jarno from '../photos/praesidium/jarno.png';
-import kleinen from '../photos/praesidium/Kleinen.jpg';
-import brakkeJongen from '../photos/praesidium/Brakke.jpg';
-import cremer from '../photos/praesidium/Cremer.jpg';
-
 export const praesidium = [
   {
     functie: 'Praeses',
-    foto: dwerg1,
+    foto: 'https://imgur.com/NOMNSaY',
     naam: 'Fleur "Luna / Dwerg 1" Schietecat',
     studie: 'Kleuteronderwijs',
     doopjaar: '2019-20',
@@ -22,7 +13,7 @@ export const praesidium = [
   },
   {
     functie: 'Vice-Praeses',
-    foto: jarno,
+    foto: 'https://imgur.com/Ofd5etp',
     naam: 'Jarno "Mona" Simons',
     studie: 'Graduaat Programmeren',
     doopjaar: '2018-19',
@@ -34,7 +25,7 @@ export const praesidium = [
   },
   {
     functie: 'Ab-Actis',
-    foto: couckie,
+    foto: 'https://imgur.com/CFPB5UO',
     naam: 'Ruth "Koeke" De Ridder',
     studie: 'Financiën & Verzekeringen',
     doopjaar: '2020-21',
@@ -46,7 +37,7 @@ export const praesidium = [
   },
   {
     functie: 'Quaestor',
-    foto: brakkeJongen,
+    foto: 'https://imgur.com/zCBJZX0',
     naam: 'Kiran "Brakke Jongen" Triffin',
     studie: 'Bedrijfsmanagement',
     doopjaar: '2021-22',
@@ -58,7 +49,7 @@ export const praesidium = [
   },
   {
     functie: 'Schachtentemmer',
-    foto: kleinen,
+    foto: 'https://imgur.com/W0QjnQw',
     naam: 'Michiel "Kleinen" Van Herreweghe',
     studie: 'Toegepaste Informatica',
     doopjaar: '2021-2022',
@@ -70,7 +61,7 @@ export const praesidium = [
   },
   {
     functie: 'Sport & Cultuur',
-    foto: maajk,
+    foto: 'https://imgur.com/l5bqG7i',
     naam: 'Maaike "Maajk" Van den Bossche',
     studie: 'Financiën & Verzekeringen',
     doopjaar: '2021-22',
@@ -82,7 +73,7 @@ export const praesidium = [
   },
   {
     functie: 'Zedenmeester',
-    foto: dwerg2,
+    foto: 'https://imgur.com/4fYjDB4',
     naam: 'Ilke "Dwerg 2" Kestemont',
     studie: 'Pedagogische Wetenschappen',
     doopjaar: '2018-19',
@@ -94,7 +85,7 @@ export const praesidium = [
   },
   {
     functie: 'Cantor',
-    foto: cremer,
+    foto: 'https://imgur.com/Wm49iFY',
     naam: 'Jarno "Cremer" De Cremer',
     studie: '/',
     doopjaar: '2021-22',
@@ -106,7 +97,7 @@ export const praesidium = [
   },
   {
     functie: 'P.R.',
-    foto: couckie,
+    foto: 'https://imgur.com/kB280Oa',
     naam: 'Anaïs "Blondie" Van Der Borght',
     studie: '',
     doopjaar: '2021-22',
@@ -118,7 +109,7 @@ export const praesidium = [
   },
   {
     functie: 'Webmaster',
-    foto: couckie,
+    foto: 'https://imgur.com/xrG2XXH',
     naam: 'Jonathan "Couckie" Couck',
     studie: 'Toegepaste Informatica',
     doopjaar: '2021-22',

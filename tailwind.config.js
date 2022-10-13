@@ -17,12 +17,12 @@ module.exports = {
       'nietGevonden': '4rem',
       'title': '2rem',
       'subtitle': '1.5rem',
-      'nav': '1.125rem',
     },
     screens: {
       'sm': '640px',
       'md': '850px',
-      'lg': '950px'
+      'lg': '950px',
+      'nav': '1000px'
     },
     extend: {
       animation: {

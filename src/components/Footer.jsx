@@ -45,7 +45,7 @@ const Footer = () => {
         </span>
       </div>
       <div className='bg-lgreen text-black p-2'>
-        Webdesign door <b>Jonathan Couck</b>
+        Webdesign/development door <a href="https://jonathancouck.github.io" target="_blank" rel="noreferrer"><b>Jonathan Couck</b></a>
       </div>
     </footer>
   )

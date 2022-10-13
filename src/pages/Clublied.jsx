@@ -8,15 +8,15 @@ const Clublied = () => {
 
   return (
     <div>
-      <div className='bg-green text-white uppercase text-subtitle md:text-title p-4 shadow-act'>
+      <div className='title'>
         Clublied
       </div>
-      <div className='my-10 space-y-10'>
+      <div className='section max-w-2xl'>
         <div className='italic'>
           <span className='font-semibold'>Wijze:</span> Ode an die freude<br/>
           <span className='font-semibold'>Tekst:</span> Geert Bruyneel en Philip Vlaeminck
         </div>
-        <hr className="border-gray-200 max-w-md mx-auto"/>
+        <hr className="border-gray-200 mx-auto"/>
         <div>
           <p>In 't Kastanjehof gezeten,<br/>
           Zat Mercurius aan den toog<br/>

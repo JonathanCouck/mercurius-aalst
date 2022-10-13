@@ -10,10 +10,10 @@ const Praesidium = () => {
 
   return (
     <div>
-      <div className='bg-green text-white uppercase text-subtitle md:text-title p-4 shadow-act'>
+      <div className='title'>
         Praesidium
       </div>
-      <div className='mx-5 my-10 md:grid md:grid-cols-2 md:mx-auto max-w-4xl'>
+      <div className='section flex flex-wrap space-y-0 md:grid md:grid-cols-2 gap-10'>
         {praesidium.map((pr, index) => <PraesidiumLid key={index} {...pr} index={index}/>)}
       </div>
     </div>

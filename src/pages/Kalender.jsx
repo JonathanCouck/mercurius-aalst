@@ -24,22 +24,22 @@ const Kalender = () => {
 
   return (
     <div>
-      <div className='bg-green text-white uppercase text-subtitle md:text-title p-4 shadow-act'>
+      <div className='title'>
         Kalender
       </div>
 
-      <div className='my-10 space-y-10'>
-        <div className='my-10 mx-5'>
-          <div>
+      <div className='section'>
+
+        <div>
+          <div className='mb-5'>
             Om de Mercurius-kalender te downloaden en in je eigen agenda te steken:
           </div>
-          <div className='mt-5'>
-            <a href="https://calendar.google.com/calendar/ical/mercuriusaalst.studentenclub%40gmail.com/public/basic.ics" className='text-white bg-green py-2 px-4 rounded-lg hover:shadow-button hover:cursor-pointer ease-in-out duration-200'>Klik hier</a>
-          </div>
+          <a href="https://calendar.google.com/calendar/ical/mercuriusaalst.studentenclub%40gmail.com/public/basic.ics" className='green-btn'>Klik hier</a>
         </div>
-        <div className='mx-5 md:mx-auto my-10'>
-          <span className='text-green text-subtitle font-semibold'>Komende activiteiten <span className='font-normal'>(Klikken voor meer info)</span></span>
-          <div className='md:grid md:grid-cols-2 max-w-4xl mx-auto'>
+
+        <div>
+          <div className='subtitle'>Komende activiteiten <span className='font-normal'>(Klikken voor meer info)</span></div>
+          <div className='center-flex-items'>
             {
               komende.length===0?
                 <span>Geen komende activiteiten gevonden</span>:
@@ -48,9 +48,10 @@ const Kalender = () => {
             }
           </div>
         </div>
-        <div className='mx-5 md:mx-auto my-10'>
-          <span className='text-green text-subtitle font-semibold'>Voorgaande activiteiten <span className='font-normal'>(Klikken voor meer info)</span></span>
-          <div className='md:grid md:grid-cols-2 max-w-4xl mx-auto'>
+
+        <div>
+          <div className='subtitle'>Voorgaande activiteiten <span className='font-normal'>(Klikken voor meer info)</span></div>
+          <div className='center-flex-items'>
             {
               voorgaande.length===0?
                 <span>Geen voorgaande activiteiten gevonden</span>:

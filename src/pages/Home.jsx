@@ -10,25 +10,25 @@ const Home = () => {
   }, [])
   
   return (
-    <div className='my-10 space-y-10'>
-      <p className='mx-5 my-10'>
+    <div className='section'>
+      <p className='mx-auto'>
         Beste Mercurius leden en geïnteresseerden,<br/> Welkom op de officiële website van onze studentenclub.
       </p>
-      <div className='mx-5 my-10 sm:mx-auto sm:max-w-xl sm:m-0 space-y-4'>
-        <span className='text-green font-semibold text-subtitle'>Wat is Mercurius</span>
-        <p className='text-justify'>Wij zijn een door Hogeschool Gent erkende studentenclub. Dit wil zeggen dat wij enkele afspraken ondertekenen die de veiligheid van onze leden garandeert en de opgelegde regels zullen worden nageleefd.</p>
-        <p className='text-justify'>Bij ons geldt een nultolerantie voor wanpraktijken of situaties die de veiligheid van onze leden op het spel zet.</p>
-        <p className='text-justify'>Ook ondertekenen wij het Aalsters doopdecreet, waardoor wij een veilige doop kunnen garanderen aan zowel de deelnemers als de mensen rondom ons.</p>
-      </div>
-
-      <div className='mx-5 my-10 sm:mx-auto sm:max-w-xl sm:m-0 space-y-4'>
-        <span className='text-green font-semibold text-subtitle'>Foto's</span>
-        <p className='text-justify'>Voor foto's verwijzen wij graag naar onze socialemediakanalen.<br/> (links onderaan deze pagina)</p>
+      <div className='text-justify max-w-2xl mx-auto'>
+        <div className='subtitle'>Wat is Mercurius</div>
+        <p>Wij zijn een door Hogeschool Gent erkende studentenclub. Dit wil zeggen dat wij enkele afspraken ondertekenen die de veiligheid van onze leden garandeert en de opgelegde regels zullen worden nageleefd.</p><br />
+        <p>Bij ons geldt een nultolerantie voor wanpraktijken of situaties die de veiligheid van onze leden op het spel zet.</p><br />
+        <p>Ook ondertekenen wij het Aalsters doopdecreet, waardoor wij een veilige doop kunnen garanderen aan zowel de deelnemers als de mensen rondom ons.</p>
       </div>
 
       <div>
-        <span className='text-green font-semibold text-subtitle'>Komende activiteiten</span>
-        <div className='md:grid md:grid-cols-2 max-w-4xl mx-auto'>
+        <div className='subtitle'>Foto's</div>
+        <p className='mx-auto'>Voor foto's verwijzen wij graag naar onze socialemediakanalen.<br/> (links onderaan deze pagina)</p>
+      </div>
+
+      <div>
+        <div className='subtitle'>Komende activiteiten</div>
+        <div className='center-flex-items'>
           {
             activities.filter(a => a.date>new Date())
               .sort((a,b) => {
