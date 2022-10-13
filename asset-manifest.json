@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89074dc9.css",
+    "main.js": "/static/js/main.5d0d654b.js",
+    "static/js/787.12b189f2.chunk.js": "/static/js/787.12b189f2.chunk.js",
+    "static/media/Cremer.jpg": "/static/media/Cremer.fe4f1bcdd417189c2503.jpg",
+    "static/media/Schild-768x916.png": "/static/media/Schild-768x916.7663a548f28af838c735.png",
+    "static/media/Dwerg1.jpg": "/static/media/Dwerg1.4518b78acfdf31541f1c.jpg",
+    "static/media/Dwerg2.jpg": "/static/media/Dwerg2.226e83c9a76a7f41df58.jpg",
+    "static/media/jarno.png": "/static/media/jarno.7c48717a7f69ca7a08b5.png",
+    "static/media/Maajk.jpg": "/static/media/Maajk.980bd586829aa72bde69.jpg",
+    "static/media/HalloweenCantus301022.jpg": "/static/media/HalloweenCantus301022.099f6031e35fce3448d7.jpg",
+    "static/media/Doop151022.jpg": "/static/media/Doop151022.4b0ea05da8487af10d05.jpg",
+    "static/media/Couckie.jpg": "/static/media/Couckie.f50880aba88db7748a34.jpg",
+    "static/media/GratisVat230922.jpg": "/static/media/GratisVat230922.95731bfb86f8fbf7b301.jpg",
+    "static/media/Introductiecantus011022.jpg": "/static/media/Introductiecantus011022.2a41d7e6e51b81ce247a.jpg",
+    "static/media/Kleinen.jpg": "/static/media/Kleinen.67e44a7d3899940f03c7.jpg",
+    "static/media/Brakke.jpg": "/static/media/Brakke.4d90ef0465ce52bfba8e.jpg",
+    "static/media/StandardBanner.jpg": "/static/media/StandardBanner.272a90d6152f74e82c02.jpg",
+    "index.html": "/index.html",
+    "main.89074dc9.css.map": "/static/css/main.89074dc9.css.map",
+    "main.5d0d654b.js.map": "/static/js/main.5d0d654b.js.map",
+    "787.12b189f2.chunk.js.map": "/static/js/787.12b189f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89074dc9.css",
+    "static/js/main.5d0d654b.js"
+  ]
+}
