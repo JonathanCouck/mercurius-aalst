@@ -33,6 +33,8 @@ const PraesidiumLid = ({ index, functie, foto, naam, studie, doopjaar, peter, me
     case 9:
       gridRow = ' row-start-[10]'
       break
+    default:
+      gridRow = ''
   };
   return (
     <div className={`max-w-sm mx-auto row-span-2 ${gridRow}`}>

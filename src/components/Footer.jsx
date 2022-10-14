@@ -13,26 +13,25 @@ const Footer = () => {
             </div>
             <ul className="items-center ml-auto space-y-5 my-auto">
                 <li title='Facebook'>
-                  <a href="https://www.facebook.com/groups/172470292809076/" target="_blank" rel="noreferrer" className='flex p-2 rounded-lg hover:bg-lgreen ease-in-out duration-200'>
+                  <a href="https://www.facebook.com/groups/172470292809076/" target="_blank" rel="noreferrer" className='footer-link'>
                     <FaFacebookF color='white' size={30} />
                     <div className='my-auto ml-5'>Facebook</div>
                   </a>
-                  
                 </li>
                 <li title='TikTok'>
-                  <a href="https://www.tiktok.com/@mercurius.aalst/" target="_blank" rel="noreferrer" className='flex hover:bg-lgreen p-2 rounded-lg ease-in-out duration-200'>
+                  <a href="https://www.tiktok.com/@mercurius.aalst/" target="_blank" rel="noreferrer" className='footer-link'>
                     <FaTiktok color='white' size={30} />
                     <div className='my-auto ml-5'>TikTok</div>
                   </a>
                 </li>
                 <li title='Instagram'>
-                  <a href="https://www.instagram.com/mercurius.aalst/" target="_blank" rel="noreferrer" className='flex hover:bg-lgreen p-2 rounded-lg ease-in-out duration-200'>
+                  <a href="https://www.instagram.com/mercurius.aalst/" target="_blank" rel="noreferrer" className='footer-link'>
                     <FaInstagram color='white' size={30} />
                     <div className='my-auto ml-5'>Instagram</div>
                   </a>
                 </li>
                 <li title='E-mail'>
-                  <a href="mailto:mercurius@hogent.be" target="_blank" rel="noreferrer" className='flex hover:bg-lgreen p-2 rounded-lg ease-in-out duration-200'>
+                  <a href="mailto:mercuriusaalst.studentenclub@gmail.com" target="_blank" rel="noreferrer" className='footer-link'>
                     <AiOutlineMail color='white' size={30} />
                     <div className='my-auto ml-5'>E-mail</div>
                   </a>

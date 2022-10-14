@@ -28,6 +28,9 @@
   .center-flex-items {
     @apply flex justify-center flex-wrap gap-10
   }
+  .footer-link {
+    @apply easer flex rounded-lg hover:bg-lgreen p-2
+  }
 
   .text-vbig {
     @apply text-lg md:text-2xl
