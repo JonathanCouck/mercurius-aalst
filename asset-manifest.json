@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mercurius-aalst/static/css/main.72fd12a9.css",
-    "main.js": "/mercurius-aalst/static/js/main.62c2ef2e.js",
+    "main.css": "/mercurius-aalst/static/css/main.ef153367.css",
+    "main.js": "/mercurius-aalst/static/js/main.fe9302fa.js",
     "static/js/787.12b189f2.chunk.js": "/mercurius-aalst/static/js/787.12b189f2.chunk.js",
     "static/media/Schild-768x916.png": "/mercurius-aalst/static/media/Schild-768x916.7663a548f28af838c735.png",
     "index.html": "/mercurius-aalst/index.html",
-    "main.72fd12a9.css.map": "/mercurius-aalst/static/css/main.72fd12a9.css.map",
-    "main.62c2ef2e.js.map": "/mercurius-aalst/static/js/main.62c2ef2e.js.map",
+    "main.ef153367.css.map": "/mercurius-aalst/static/css/main.ef153367.css.map",
+    "main.fe9302fa.js.map": "/mercurius-aalst/static/js/main.fe9302fa.js.map",
     "787.12b189f2.chunk.js.map": "/mercurius-aalst/static/js/787.12b189f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72fd12a9.css",
-    "static/js/main.62c2ef2e.js"
+    "static/css/main.ef153367.css",
+    "static/js/main.fe9302fa.js"
   ]
 }
