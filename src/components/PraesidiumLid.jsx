@@ -37,10 +37,10 @@ const PraesidiumLid = ({ index, functie, foto, naam, studie, doopjaar, peter, me
       gridRow = ''
   };
   return (
-    <div className={`max-w-sm mx-auto row-span-2 ${gridRow}`}>
+    <div className={`mx-auto row-span-2 ${gridRow}`}>
       <span className='text-green text-subtitle font-semibold'>{functie}</span>
-      <div className='border-2 border-green rounded-xl shadow-act'>
-        <img src={foto+'.jpg'} alt={naam} className="w-full rounded-t-xl"/>
+      <div className='max-w-md border-2 border-green rounded-xl shadow-act'>
+        <img src={foto+'.jpg'} alt={naam} className="w-full rounded-t-[0.63rem]"/>
         <div className='m-4'>
           <span className='text-green text-nav font-semibold'>{naam}</span>
           <div className='text-justify'>

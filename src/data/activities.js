@@ -30,7 +30,7 @@ export const activities = [
     foto: 'https://imgur.com/2b493h6',
     title: 'Doopcantus',
     date: new Date('2022/10/15'),
-    location: 'TBA',
+    location: 'De Klok',
     time: '20:30',
     toegankelijkheid: 'Gesloten',
     link: 'https://www.facebook.com/events/657784838800703'
@@ -39,7 +39,7 @@ export const activities = [
     foto: '',
     title: 'Pizza & Onesie Clubavond',
     date: new Date('2022/10/22'),
-    location: 'TBA',
+    location: `'t Kraaiken`,
     time: '20:00',
     toegankelijkheid: 'Open',
     link: 'https://www.facebook.com/events/639866144237633'
@@ -57,7 +57,7 @@ export const activities = [
     foto: 'https://imgur.com/F48QIUe',
     title: 'Halloweencantus',
     date: new Date('2022/10/29'),
-    location: 'TBA',
+    location: 'Onthaalcomplex De Brug',
     time: '20:00',
     toegankelijkheid: 'Open',
     link: 'https://www.facebook.com/events/823840545647152'
@@ -66,8 +66,8 @@ export const activities = [
     foto: '',
     title: 'Brouwerijbezoek',
     date: new Date('2022/11/19'),
-    location: 'TBA',
-    time: 'TBA',
+    location: 'Duvel Moortgat',
+    time: '11:00 - 13:00',
     toegankelijkheid: 'Open',
     link: null
   },

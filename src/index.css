@@ -29,7 +29,7 @@
     @apply flex justify-center flex-wrap gap-10
   }
   .footer-link {
-    @apply easer flex rounded-lg hover:bg-lgreen p-2
+    @apply easer flex rounded-lg hover:bg-lgreen hover:scale-105 hover:text-black p-2
   }
 
   .text-vbig {

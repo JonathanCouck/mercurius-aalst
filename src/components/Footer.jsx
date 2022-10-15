@@ -8,34 +8,26 @@ const Footer = () => {
     <footer className="bg-green text-white dark:bg-gray-900">
       <div className="p-4 mx-auto max-w-lg">
         <div className="flex mx-auto px-4">
-            <div className="flex items-center mb-4 sm:mb-0">
-                <img src={logo} className="mr-3 h-20" alt="Flowbite Logo" />
-            </div>
+            <a className="footer-link h-min rounded-b-[2.8rem] my-auto" href='/mercurius-aalst'>
+                <img src={logo} className="h-28" alt="Flowbite Logo" />
+            </a>
             <ul className="items-center ml-auto space-y-5 my-auto">
-                <li title='Facebook'>
-                  <a href="https://www.facebook.com/groups/172470292809076/" target="_blank" rel="noreferrer" className='footer-link'>
-                    <FaFacebookF color='white' size={30} />
-                    <div className='my-auto ml-5'>Facebook</div>
-                  </a>
-                </li>
-                <li title='TikTok'>
-                  <a href="https://www.tiktok.com/@mercurius.aalst/" target="_blank" rel="noreferrer" className='footer-link'>
-                    <FaTiktok color='white' size={30} />
-                    <div className='my-auto ml-5'>TikTok</div>
-                  </a>
-                </li>
-                <li title='Instagram'>
-                  <a href="https://www.instagram.com/mercurius.aalst/" target="_blank" rel="noreferrer" className='footer-link'>
-                    <FaInstagram color='white' size={30} />
-                    <div className='my-auto ml-5'>Instagram</div>
-                  </a>
-                </li>
-                <li title='E-mail'>
-                  <a href="mailto:mercuriusaalst.studentenclub@gmail.com" target="_blank" rel="noreferrer" className='footer-link'>
-                    <AiOutlineMail color='white' size={30} />
-                    <div className='my-auto ml-5'>E-mail</div>
-                  </a>
-                </li>
+              <a title='Facebook' href="https://www.facebook.com/groups/172470292809076/" target="_blank" rel="noreferrer" className='footer-link'>
+                <FaFacebookF size={30} />
+                <div className='my-auto ml-5'>Facebook</div>
+              </a>
+              <a title='TikTok' href="https://www.tiktok.com/@mercurius.aalst/" target="_blank" rel="noreferrer" className='footer-link'>
+                <FaTiktok size={30} />
+                <div className='my-auto ml-5'>TikTok</div>
+              </a>
+              <a title='Instagram' href="https://www.instagram.com/mercurius.aalst/" target="_blank" rel="noreferrer" className='footer-link'>
+                <FaInstagram size={30} />
+                <div className='my-auto ml-5'>Instagram</div>
+              </a>
+              <a title='E-mail' href="mailto:mercuriusaalst.studentenclub@gmail.com" target="_blank" rel="noreferrer" className='footer-link'>
+                <AiOutlineMail size={30} />
+                <div className='my-auto ml-5'>E-mail</div>
+              </a>
             </ul>
         </div>
         <hr className="m-4 border-gray-200 sm:mx-auto" />
