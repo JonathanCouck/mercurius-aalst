@@ -5,8 +5,8 @@ const month = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "
 
 const Activiteit = ({ foto, title, date, time, toegankelijkheid, location, link }) => {
   return(
-    <a href={link} target="_blank" rel="noreferrer" title='Klik voor meer informatie' className='easer max-w-sm hover:scale-105 z-10'>
-      <div className='merc-border row-span-2 shadow-act mx-auto ease-in-out duration-300'>
+    <a href={link} target="_blank" rel="noreferrer" title='Klik voor meer informatie' className={`easer max-w-sm ${link?'hover:scale-105':null} z-10`}>
+      <div className='merc-border row-span-2 shadow-act mx-auto ease-in-out duration-300 bg-white'>
         <img src={foto===''? 'https://imgur.com/NhrMwiG.jpg':foto+'.jpg'} alt={title} className="w-full rounded-t-[0.63rem] border-b-2 border-green"/>
         <div className='m-4'>
           <span className='text-green text-nav font-semibold'>{title}</span>

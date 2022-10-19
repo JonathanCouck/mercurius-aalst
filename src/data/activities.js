@@ -36,7 +36,7 @@ export const activities = [
     link: 'https://www.facebook.com/events/657784838800703'
   },
   {
-    foto: '',
+    foto: 'https://imgur.com/KSVgyuW',
     title: 'Pizza & Onesie Clubavond',
     date: new Date('2022/10/22'),
     location: `'t Kraaiken`,
@@ -54,7 +54,7 @@ export const activities = [
     link: 'https://www.facebook.com/events/1135283497400471'
   },
   {
-    foto: 'https://imgur.com/F48QIUe',
+    foto: 'https://imgur.com/3gFrXRu',
     title: 'Halloweencantus',
     date: new Date('2022/10/29'),
     location: 'Onthaalcomplex De Brug',
@@ -69,7 +69,7 @@ export const activities = [
     location: 'Duvel Moortgat',
     time: '11:00 - 13:00',
     toegankelijkheid: 'Open',
-    link: null
+    link: 'https://www.facebook.com/events/655746512581411'
   },
   {
     foto: '',
