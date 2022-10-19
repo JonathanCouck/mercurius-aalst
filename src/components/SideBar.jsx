@@ -9,11 +9,11 @@ const Sidebar = ({close, isOpen}) => {
       <nav>
         <ul className='text-[1.2rem] text-left flex flex-col'>
           {[
-            ['Home', '/mercurius-aalst'],
-            ['Praesidium', '/mercurius-aalst/praesidium'],
-            ['Geschiedenis', '/mercurius-aalst/geschiedenis'],
-            ['Clublied', '/mercurius-aalst/clublied'],
-            ['Kalender', '/mercurius-aalst/kalender'],
+            ['Home', ''],
+            ['Praesidium', '/praesidium'],
+            ['Geschiedenis', '/geschiedenis'],
+            ['Clublied', '/clublied'],
+            ['Kalender', '/kalender'],
             // ['Clubcafe', '/clubcafe'],
           ].map(([title, url]) => {
             return (

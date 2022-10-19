@@ -19,7 +19,7 @@ function App() {
         <NavMenu />
 
         <Routes>
-          <Route path='/mercurius-aalst'>
+          <Route path=''>
             <Route path='' element={<Home/>} />
             <Route path='geschiedenis' element={<Geschiedenis/>} />
             <Route path='clublied' element={<Clublied/>} />

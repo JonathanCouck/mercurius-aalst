@@ -18,18 +18,18 @@ const NavMenu = () => {
   return (
     <div className=''>
       <div className='flex bg-green text-white fixed w-screen border-b-2 border-lgreen px-4 z-20'>
-        <Link to='/mercurius-aalst' onClick={close} className='nav-btn flex mr-auto m-2 rounded-b-[2rem] rounded-tr-[2rem]'>
+        <Link to='/' onClick={close} className='nav-btn flex mr-auto m-2 rounded-b-[2rem] rounded-tr-[2rem]'>
           <img src={logo} className='h-20 m-2' alt='No' />
           <span className='my-auto ml-2 pr-2 text-subtitle'>MERCURIUS</span>
         </Link>
         
         <ul className='text-[1.2rem] hidden nav:flex'>
           {[
-            ['Home', '/mercurius-aalst'],
-            ['Praesidium', '/mercurius-aalst/praesidium'],
-            ['Geschiedenis', '/mercurius-aalst/geschiedenis'],
-            ['Clublied', '/mercurius-aalst/clublied'],
-            ['Kalender', '/mercurius-aalst/kalender'],
+            ['Home', '/'],
+            ['Praesidium', '/praesidium'],
+            ['Geschiedenis', '/geschiedenis'],
+            ['Clublied', '/clublied'],
+            ['Kalender', '/kalender'],
             // ['Clubcafe', '/clubcafe'],
           ].map(([title, url]) => { 
             return (
