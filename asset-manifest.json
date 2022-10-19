@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mercurius-aalst/static/css/main.446ccdf1.css",
-    "main.js": "/mercurius-aalst/static/js/main.b21f496d.js",
-    "static/js/787.12b189f2.chunk.js": "/mercurius-aalst/static/js/787.12b189f2.chunk.js",
-    "static/media/Schild-768x916.png": "/mercurius-aalst/static/media/Schild-768x916.7663a548f28af838c735.png",
-    "index.html": "/mercurius-aalst/index.html",
-    "main.446ccdf1.css.map": "/mercurius-aalst/static/css/main.446ccdf1.css.map",
-    "main.b21f496d.js.map": "/mercurius-aalst/static/js/main.b21f496d.js.map",
-    "787.12b189f2.chunk.js.map": "/mercurius-aalst/static/js/787.12b189f2.chunk.js.map"
+    "main.css": "/mercurius-aalst.be/static/css/main.446ccdf1.css",
+    "main.js": "/mercurius-aalst.be/static/js/main.2dc98d7b.js",
+    "static/js/787.12b189f2.chunk.js": "/mercurius-aalst.be/static/js/787.12b189f2.chunk.js",
+    "static/media/Schild-768x916.png": "/mercurius-aalst.be/static/media/Schild-768x916.7663a548f28af838c735.png",
+    "index.html": "/mercurius-aalst.be/index.html",
+    "main.446ccdf1.css.map": "/mercurius-aalst.be/static/css/main.446ccdf1.css.map",
+    "main.2dc98d7b.js.map": "/mercurius-aalst.be/static/js/main.2dc98d7b.js.map",
+    "787.12b189f2.chunk.js.map": "/mercurius-aalst.be/static/js/787.12b189f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.446ccdf1.css",
-    "static/js/main.b21f496d.js"
+    "static/js/main.2dc98d7b.js"
   ]
 }
